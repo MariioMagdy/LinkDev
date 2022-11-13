@@ -1,0 +1,53 @@
+.footer-img{
+    width: 157px;
+    height: 60px;
+}
+
+
+.footer-p{
+    font-size: 13px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.heads{
+    font-family: 'Poppins', sans-serif;
+    font-size: 21px;
+    font-weight: bold;
+   color: #080809;
+
+}
+
+ul li{
+    font-size: 18px;
+    color: #5E6282;
+  
+
+}
+
+.fa-facebook-f,.fa-instagram,.fa-twitter{
+    color:#080809
+}
+.social i{
+    padding: 15px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    cursor: pointer;
+}
+
+.dis{
+    color: #5E6282;
+    font-size: 20px;
+}
+
+.socialT{
+    font-size: 8px;
+    
+}
+.rounded-pill{
+    background-color: #080809;
+    color:#FFFFFF
+}
+footer span{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 14;
+    font-weight: 300;
+}

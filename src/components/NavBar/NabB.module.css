@@ -1,0 +1,9 @@
+:global(.navbar-brand img) {
+    width: 70%;
+}
+.navbar-expand-lg .navbar-nav .dropdown-menu ul{
+    left:-100px !important;
+}
+.dropdown-item {
+    background-color: red !important;
+}
