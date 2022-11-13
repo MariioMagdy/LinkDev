@@ -80,12 +80,7 @@ const HomeSlider = () => {
                     thrive
                     <br /> on digital breakthroughs.
                   </p>
-                  <button
-                    className="btn
-                  "
-                  >
-                    Find out More
-                  </button>
+                  <button className="btn btn-primary">Find out More</button>
                   <i className="fa-solid fa-circle-play"> play Video</i>
                 </div>
               </div>
