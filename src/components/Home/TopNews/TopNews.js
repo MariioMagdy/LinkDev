@@ -105,37 +105,49 @@ const TopNews = () => {
       <span className="media">Media</span>
       <p className="fs-1 fw-bold mb-5">Top News</p>
       <div className="mb-3">
-        <div className="d-flex justify-content-around news-w ">
-          <button
-            onClick={() => SetActive(0)}
-            className={`${isActive === 0 ? "act" : "btn btn-primary"}`}
-          >
-            All News
-          </button>
-          <button
-            onClick={() => SetActive(1)}
-            className={` ${isActive === 1 ? "act" : "btn btn-primary"}`}
-          >
-            Technology
-          </button>
-          <button
-            onClick={() => SetActive(2)}
-            className={`= ${isActive === 2 ? "act" : "btn btn-primary"}`}
-          >
-            Sports
-          </button>
-          <button
-            onClick={() => SetActive(3)}
-            className={` ${isActive === 3 ? "act" : "btn btn-primary"}`}
-          >
-            Health
-          </button>
-          <button
-            onClick={() => SetActive(4)}
-            className={` ${isActive === 4 ? "act" : "btn btn-primary"}`}
-          >
-            Economics
-          </button>
+        <div className="d-flex justify-content-around news-w">
+          <div className="row">
+            <div className="col-md">
+              <button
+                onClick={() => SetActive(0)}
+                className={`${isActive === 0 ? "act" : "btn btn-primary"}`}
+              >
+                All News
+              </button>
+            </div>
+            <div className="col-md">
+              <button
+                onClick={() => SetActive(1)}
+                className={` ${isActive === 1 ? "act" : "btn btn-primary"}`}
+              >
+                Technology
+              </button>
+            </div>
+            <div className="col-md">
+              <button
+                onClick={() => SetActive(2)}
+                className={`= ${isActive === 2 ? "act" : "btn btn-primary"}`}
+              >
+                Sports
+              </button>
+            </div>
+            <div className="col-md">
+              <button
+                onClick={() => SetActive(3)}
+                className={` ${isActive === 3 ? "act" : "btn btn-primary"}`}
+              >
+                Health
+              </button>
+            </div>
+            <div className="col-md">
+              <button
+                onClick={() => SetActive(4)}
+                className={` ${isActive === 4 ? "act" : "btn btn-primary"}`}
+              >
+                Economics
+              </button>
+            </div>
+          </div>
         </div>
       </div>
       <motion.div

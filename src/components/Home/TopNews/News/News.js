@@ -10,7 +10,7 @@ const News = ({ element, data }) => {
 
   return (
     <motion.div layout className="col-md-4" id="News">
-      <div className="card news mt-5">
+      <div className="card news mt-5 container">
         <img
           src={element.urlToImage}
           className="card-img-top img-fluid"

@@ -28,26 +28,31 @@
 .w{
     width: 50px !important;
 }
-.act{
-    background-color: #0ECEFF;
-    border: 0;
-    color: white;
-    border-radius: 0.375rem;
-   
-    
-}
+
 .news-w{
     width: 60% !important;
     margin: 0 auto;
     transition: all .5;
 }
 
+.act{
+    background-color: #0ECEFF;
+    border: 0;
+    color: white;
+    width: 100px;
+    border-radius: 0.375rem;
+    padding: 4px;
+    margin: 4px 0;
+}
+
 .news-w .btn.btn-primary{
     color:#0F526E;
     background-color:#E3E3E3 !important;
     border : 0 !important;
-    margin: 5px;
-   
+    width: 100px;
+    border-radius: 0.375rem;
+    margin: 4px 0;
+    padding: 4px;
 }
 
 .media{
