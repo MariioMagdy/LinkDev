@@ -18,28 +18,32 @@ const News = ({ element, data }) => {
           onError={addDefaultSrc}
         />
         <div className="card-body">
-          <h5 className="card-title">{element.title}</h5>
-          <p className="card-text">{element.description}</p>
-          <div className="d-flex justify-content-start align-items-center mb-3">
-            <i className="fa-solid fa-calendar-days news-icon"></i>
-            <span>{element.publishedDate}</span>
-          </div>
-          <div className="row align-items-center">
-            <div className="col-md-6">
-              <a href="#" className="btn cate me-3">
-                {element.category}
-              </a>
-            </div>
-            <div className="col-md-6">
-              <div className="row justify-content-end">
-                <div className="col-md-6 w">
-                  <div className="w-25">
-                    <i className="fa-regular fa-heart w-100"></i>
-                  </div>
+          <div>
+            <div className="d-flex flex-column justify-content-between news-h">
+              <h5 className="card-title">{element.title}</h5>
+              <p className="card-text">{element.description}</p>
+              <div className="row align-items-center">
+                <div className="text-start p-2 ms-3">
+                  <i className="fa-solid fa-calendar-days news-icon"></i>
+                  <span className="text-start">{element.publishedDate}</span>
                 </div>
-                <div className="col-md-6 w">
-                  <div className="w-25">
-                    <i className="fa-solid fa-share-nodes w-100"></i>
+                <div className="col-md-6">
+                  <a href="#" className="btn cate me-3">
+                    {element.category}
+                  </a>
+                </div>
+                <div className="col-md-6">
+                  <div className="row justify-content-end">
+                    <div className="col-md-6 w">
+                      <div className="w-25">
+                        <i className="fa-regular fa-heart w-100"></i>
+                      </div>
+                    </div>
+                    <div className="col-md-6 w">
+                      <div className="w-25">
+                        <i className="fa-solid fa-share-nodes w-100"></i>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>

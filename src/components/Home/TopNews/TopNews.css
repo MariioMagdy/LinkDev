@@ -10,9 +10,8 @@
 .card.news{
     border: 0;
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
-   
-  width: 100%;
-
+    width: 100%;
+    min-height: 95%;
     border-radius: 20px;
 }
 .card.news img{
@@ -64,4 +63,9 @@
     color:#5E6282 !important;
     padding: 0 15px !important;
     border-radius: 20px !important;
+    min-width: 120px;
+}
+
+.news-h{
+    min-height: 300px;
 }

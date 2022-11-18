@@ -1,6 +1,6 @@
 const apiLink = "https://api.npoint.io";
 
-export const getAll = () =>
+export const bannar = () =>
   fetch(`${apiLink}/fee177346e7875554413`)
     .then((res) => res.json())
     .then((data) => data.slides);
