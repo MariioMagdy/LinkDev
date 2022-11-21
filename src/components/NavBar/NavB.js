@@ -60,7 +60,7 @@ const NavB = () => {
                 Sign up
               </a>
             </li>
-            <li className="nav-item dropdown" onClick={change}>
+            <li className={`${styles.lang} ${"nav-item"}`} onClick={change}>
               <a className="nav-link" id="navbarDropdown">
                 {chart}
               </a>

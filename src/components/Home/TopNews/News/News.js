@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 const News = ({ element, data }) => {
   function addDefaultSrc(ev) {
     ev.target.src =
-      "https://pbs.twimg.com/card_img/1589747714237104128/tfqjWrmn?format=jpg&name=900x900";
+      "https://pbs.twimg.com/profile_images/1245803312475181056/oD7LZmcI_400x400.png";
   }
 
   return (

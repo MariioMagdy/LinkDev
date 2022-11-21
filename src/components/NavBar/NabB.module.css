@@ -7,3 +7,6 @@
 .dropdown-item {
     background-color: red !important;
 }
+.lang{
+    cursor: pointer !important;
+}
